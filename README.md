@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-See the code in action (https://dventura.pt)
+## See the code in action: https://dventura.pt
 
 ## About Laravel
 
