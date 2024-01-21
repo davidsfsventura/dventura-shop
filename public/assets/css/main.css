@@ -1,0 +1,26 @@
+.editWarningNav {
+    color: #3586ff !important;
+    position: relative !important;
+}
+
+body {
+    background-image: url("../img/background.svg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto 150%;
+}
+
+.header {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    font-size: 3rem;
+    color: #3586ff;
+}
+.headernd {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-size: 2rem;
+    color: #3586ff;
+}

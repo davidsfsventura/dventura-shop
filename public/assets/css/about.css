@@ -1,0 +1,62 @@
+.main-container {
+    z-index: 9998;
+    animation: slideInbottom 0.7s ease-out 1;
+    width: 450px;
+    height: 420px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inline {
+    display: inline;
+}
+
+.header {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.devInfo {
+    /*     background: red;
+ */
+    margin-left: 3rem;
+}
+.dev {
+    position: absolute;
+    margin-left: 1.7rem;
+    margin-top: 2.5rem;
+}
+.me_img {
+    margin-top: 1rem;
+    border-radius: 50%;
+    max-width: 9.5rem;
+    max-height: 9.5rem;
+}
+
+.projectInfo {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.feedback {
+    position: absolute;
+    color: inherit;
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .main-container {
+        width: 350px;
+    }
+    .me_img {
+        width: 6.5rem;
+    }
+    .dev {
+        margin-left: 1rem;
+    }
+}
