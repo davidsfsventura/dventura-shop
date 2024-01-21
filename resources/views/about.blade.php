@@ -29,6 +29,8 @@
                 <a href="https://github.com/davidsfsventura/dventura-shop" target="_blank"><i
                         class="fa-brands fa-github fa-2xl icon"></i></a>
                 <a href="/feedback" style="margin-left: 10px"><i class="fa-regular fa-envelope fa-2xl icon"></i></a>
+                <a href="https://www.linkedin.com/in/david-ventura-5244a2239/" target="_blank"
+                    style="margin-left: 10px"><i class="fa-brands fa-linkedin fa-2xl icon"></i></a>
             </div>
         </div>
         <div class="projectInfo">
