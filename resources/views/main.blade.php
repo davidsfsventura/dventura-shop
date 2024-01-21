@@ -17,7 +17,6 @@
 <body>
     <h1 class="header">Project Website</h1>
     <a href="/shop" class="shop_around">Shop around</a>
-    <a href="https://github.com/davidsfsventura/dventura-shop" target="_blank" class="source_code">Source Code</a>
 </body>
 
 </html>
