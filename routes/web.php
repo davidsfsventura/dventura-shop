@@ -59,3 +59,4 @@ Route::post('/users/authenticate/verify2facode', [UserController::class, 'verify
 Route::get('/users/delete2fa', [UserController::class, 'goToLogin']);
 Route::post('/users/delete2fa', [UserController::class, 'disable2fa']);
 Route::post('/shop/add_to_cart', [CartController::class, 'AddToCart']);
+Route::get('/shop/cart', [Controller::class, 'showCartForm']);
