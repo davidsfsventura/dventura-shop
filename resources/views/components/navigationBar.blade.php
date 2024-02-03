@@ -144,6 +144,7 @@
         </div>
     </div> --}}
     <a href="/about">About</a>
+    <a href="https://github.com/davidsfsventura/dventura-shop" target="_blank">Source Code</a>
     @php
     if(Session::get('email') != null){
     @endphp

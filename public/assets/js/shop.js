@@ -148,97 +148,20 @@ function addToCart(mainDivId, cardName) {
             const parentAlertsDiv = document.getElementById("alerts");
             const newAlert = document.createElement("div");
             newAlert.classList.add("alert");
+            newAlert.id = `alert-${mainDivId}`;
             newAlert.innerHTML = `
-        <span class="closebtn" onclick="closeAlert(this);">&times;</span>
-        <img src="${cardIMG}" style="display:inline; margin-right:1rem"/> Added <strong>${cardName}</strong> to cart.
+        <span class="closebtn" onclick="closeAlert(event.target.parentElement.id);">&times;</span>
+        <img src="${cardIMG}"/><p style="display:inline; margin-left:1rem;margin-top:1rem !important"> Added <strong>${cardName}</strong> to cart.</p>
     `;
             parentAlertsDiv.appendChild(newAlert);
 
             setTimeout(() => {
-                closeAlert(newAlert.querySelector(".closebtn"));
+                closeAlert(newAlert.id);
             }, 4000);
         },
     });
 }
 
 function closeAlert(element) {
-    element.parentElement.style.display = "none";
+    document.getElementById(element).remove();
 }
-
-/* function priceRange() {
-    $cards = document.querySelectorAll(".cardContainer");
-    $minRange = document.getElementById("price-min").value;
-    $maxRange = document.getElementById("price-max").value;
-
-    $cards.forEach((card) => {
-        $price = parseFloat(card.dataset["price"]);
-        if ($price >= $minRange && $price <= $maxRange) {
-            if (bodyTypeItems.includes(card.dataset["body_type"])) {
-                card.style.display = "inline-block";
-            }
-            if (bodyTypeItems.length === 0) {
-                card.style.display = "inline-block";
-            }
-        } else {
-            card.style.display = "none";
-        }
-    });
-} */
-
-/* function clothesFilter($id) {
-    $clothesType = document.getElementById($id);
-    $minRange = document.getElementById("price-min").value;
-    $maxRange = document.getElementById("price-max").value;
-
-    $cards = document.querySelectorAll(".cardContainer");
-    if ($clothesType.checked === true) {
-        clothesTypeItems.push($clothesType.id);
-    } else {
-        const index = clothesTypeItems.indexOf($clothesType.id);
-        if (index > -1) {
-            clothesTypeItems.splice(index, 1);
-        }
-    }
-
-    if (clothesTypeItems.length === 0 && bodyTypeItems.length !== 0) {
-        $cards.forEach((card) => {
-            if (bodyTypeItems.includes(card.dataset["body_type"])) {
-                card.style.display = "inline-block";
-            } else {
-                card.style.display = "none";
-            }
-        });
-    } else if (bodyTypeItems.length === 0 && clothesTypeItems.length === 0) {
-        $cards.forEach((card) => {
-            card.style.display = "inline-block";
-        });
-    } else {
-        $cards.forEach((card) => {
-            $price = parseFloat(card.dataset["price"]);
-            if (
-                $price >= $minRange &&
-                $price <= $maxRange &&
-                clothesTypeItems.includes(card.dataset["type"])
-            ) {
-                card.style.display = "inline-block";
-            } else {
-                card.style.display = "none";
-            }
-        });
-    }
-} */
-
-/*  function CardFunction(){
-     const cards = document.querySelectorAll('.card');
-     
-     function transition() {
-       if (this.classList.contains('active')) {
-         this.classList.remove('active')
-       } else {
-         this.classList.add('active');
-       }
-     }
-     
-     cards.forEach(card => card.addEventListener('click', transition));
- }
- */

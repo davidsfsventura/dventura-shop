@@ -11,7 +11,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Diodav</title>
-    @include('components.navbar')
+    @include('components.navigationBar')
     @include('components.backgroundwave')
     @include('components.default')
 </head>
@@ -26,7 +26,7 @@
                 <h4 style="font-weight: normal">David Ventura</h4>
                 <h4 style="font-weight: normal">19 years old</h4>
                 <h4 style="font-weight: normal">Portuguese</h4>
-                <a href="https://github.com/davidsfsventura/dventura-shop" target="_blank"><i
+                <a href="https://github.com/davidsfsventura" target="_blank"><i
                         class="fa-brands fa-github fa-2xl icon"></i></a>
                 <a href="/feedback" style="margin-left: 10px"><i class="fa-regular fa-envelope fa-2xl icon"></i></a>
                 <a href="https://www.linkedin.com/in/david-ventura-5244a2239/" target="_blank"

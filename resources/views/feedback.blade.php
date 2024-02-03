@@ -8,7 +8,7 @@
   <link rel="icon" href="{{ asset(" assets/img/main_logo.png") }}">
   <link rel="stylesheet" href="{{ asset('assets/css/feedback.css') }}" />
   <title>Diodav</title>
-  @include('components.navbar')
+  @include('components.navigationBar')
   @include('components.backgroundwave')
   @include('components.default')
 

@@ -10,7 +10,7 @@
     integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Account Info</title>
-  @include('components.navbar')
+  @include('components.navigationBar')
   @include('components.backgroundwave')
   <script>
     var infoDivMain = "";

@@ -15,7 +15,7 @@
         var hideimg = '{{ URL::asset('assets/img/hide.png') }}';
     </script>
     <script src="{{ asset('assets/js/js.js') }}"></script>
-    @include('components.navbar')
+    @include('components.navigationBar')
     @include('components.backgroundwave')
     @include('components.default')
 </head>

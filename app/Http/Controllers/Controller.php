@@ -75,4 +75,8 @@ class Controller extends BaseController
     {
         return view('2facodeForm');
     }
+    public function showCartForm()
+    {
+        return view('cart');
+    }
 }

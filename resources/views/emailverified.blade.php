@@ -8,7 +8,7 @@
     <link rel="icon" href="{{ asset(" assets/img/main_logo.png") }}">
     <link href="{{ asset('assets/css/emailverified.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    @include('components.navbar')
+    @include('components.navigationBar')
     @include('components.backgroundwave')
     @include('components.default')
     <title>Diodav</title>

@@ -1,0 +1,11 @@
+* {
+    /*     border: 1px solid red;
+ */
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/background.svg");
+    background-repeat: repeat;
+    background-size: 7%;
+}

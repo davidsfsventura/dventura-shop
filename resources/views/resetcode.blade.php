@@ -8,7 +8,7 @@
     <link href="{{ asset('assets/css/resetcode.css') }}" rel="stylesheet" type="text/css">
     <link rel="icon" href="{{ asset('assets/img/main_logo.png') }}">
     <title>Diodav</title>
-    @include('components.navbar')
+    @include('components.navigationBar')
     @include('components.backgroundwave')
     @include('components.default')
 </head>
